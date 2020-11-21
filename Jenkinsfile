@@ -4,7 +4,7 @@ pipeline {
      maven 'M2_HOME'
   }
   environment {
-    registry = "kserge2001/devop-pipeline"
+    registry = "oliviakt23/devops-pipeline"
     registryCredential = 'dockerUserID'
   }
   stages {
